@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <!-- Load TensorFlow.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js"> </script> 
+ 
+ 
+    <!-- Place your code in the script tag below. You can also use an external .js file -->
+    <script>
+      // Notice there is no 'import' statement. 'tf' is available on the index-page
+      // because of the script tag above.
+ 
+      // Define a model for linear regression.
+      my()
+      {
+        const model = await tf.loadLayersModel('https://foo.bar/tfjs_artifacts/model.json');
+      const example = tf.fromPixels(webcamElement);  // for example
+const prediction = model.predict(example);
+
+      }
+     
+    </script> 
+  </head>
+ 
+  <body>
+      <button onclick="my()">ok</button>
+
+  </body>
+</html>

@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+.center {
+  margin: auto;
+  width: 60%;
+  border: 2px ;
+  padding: 10px;
+  /* margin-top: 50px; */
+  margin-bottom: 30px;
+}
+#idcard{
+
+  display: inline;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+.panel-heading{
+  border: 2px solid #2ecc72;
+  border-radius: 12px;
+  width:  100%;
+}
+#btn--link
+{
+  border: none;
+  background-color:#2ecc72 
+}
+
+#button{
+  border: 2px solid #2ecc72;
+  border-radius: 12px;
+  width:  75%;
+  background-color: #2ecc72;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
